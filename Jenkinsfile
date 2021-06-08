@@ -9,7 +9,8 @@ node{
         
     }
     stage('slack notification'){
-         slackSend channel: '#jenkins-pipeline-demo-1', color: 'good', message: 'test slack message', tokenCredentialId: 'slack-pwd'        
+         //slackSend channel: '#jenkins-pipeline-demo-1', color: 'good', message: 'test slack message', tokenCredentialId: 'slack-pwd' 
+         slackSend channel: '#jenkins-pipeline-demo-2', color: 'good', failOnError: true, message: 'test message 2 to from jenkins', tokenCredentialId: 'slack-pwd' 
     }
    
 }

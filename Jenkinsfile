@@ -5,7 +5,7 @@ node{
   channel: '#jenkins-pipeline-demo-2', 
   color: '#00ff00', 
   message: 'Testing Jekins with Slack by att', 
-  tokenCredentialId: 'slack-bot-token'
+  tokenCredentialId: 'slack-jenkins'
     }
    
 }
